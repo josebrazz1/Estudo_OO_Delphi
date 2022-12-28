@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/26 10:54:46.000.040,=C:\Users\José Augusto Braz\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/26 10:55:50.000.889,C:\Users\José Augusto Braz\Desktop\ESTUDO PRATICO CERT DELPHI\Unit1.pas=C:\Users\José Augusto Braz\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/26 10:55:50.000.889,C:\Users\José Augusto Braz\Desktop\ESTUDO PRATICO CERT DELPHI\Unit1.dfm=C:\Users\José Augusto Braz\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/12/26 10:56:01.000.488,C:\Users\José Augusto Braz\Desktop\ESTUDO PRATICO CERT DELPHI\Project1.dproj=C:\Users\José Augusto Braz\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

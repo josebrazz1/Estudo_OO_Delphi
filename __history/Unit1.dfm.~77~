@@ -1,0 +1,90 @@
+object formEstudo: TformEstudo
+  Left = 0
+  Top = 0
+  Caption = 'Formul'#225'rio de estudo'
+  ClientHeight = 161
+  ClientWidth = 584
+  Color = clBtnFace
+  Constraints.MaxHeight = 300
+  Constraints.MaxWidth = 600
+  Constraints.MinHeight = 200
+  Constraints.MinWidth = 500
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  DesignSize = (
+    584
+    161)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblObjInMemory: TLabel
+    Left = 397
+    Top = 8
+    Width = 98
+    Height = 13
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    Caption = 'Objetos em mem'#243'ria'
+  end
+  object btnObjCreate: TButton
+    Left = 8
+    Top = 104
+    Width = 156
+    Height = 49
+    Anchors = [akLeft, akBottom]
+    Caption = 'Criar objeto'
+    TabOrder = 0
+    OnClick = btnObjCreateClick
+  end
+  object txtObjName: TEdit
+    Left = 8
+    Top = 8
+    Width = 156
+    Height = 21
+    TabOrder = 1
+    TextHint = 'Descri'#231#227'o do objeto'
+  end
+  object lbxObjCreated: TListBox
+    Left = 293
+    Top = 27
+    Width = 202
+    Height = 126
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    ItemHeight = 13
+    TabOrder = 2
+    OnClick = lbxObjCreatedClick
+  end
+  object btnObjRemove: TButton
+    Left = 501
+    Top = 27
+    Width = 75
+    Height = 25
+    Anchors = [akTop, akRight]
+    Caption = 'Deletar'
+    TabOrder = 3
+    OnClick = btnObjRemoveClick
+  end
+  object Button2: TButton
+    Left = 501
+    Top = 58
+    Width = 75
+    Height = 25
+    Anchors = [akTop, akRight]
+    Caption = 'Limpar'
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object Button1: TButton
+    Left = 184
+    Top = 64
+    Width = 75
+    Height = 25
+    Caption = 'Button1'
+    TabOrder = 5
+    OnClick = Button1Click
+  end
+end
