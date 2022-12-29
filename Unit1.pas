@@ -61,6 +61,12 @@ procedure TformEstudo.btnObjCreateClick(Sender: TObject);
 var
   obj : TObjEstudo;
 begin
+  if txtObjName.Text = '' then
+  begin
+    ShowMessage('Dê um nome para o objeto!');
+    exit;
+  end;
+
   {Instancia o objeto}
   obj := TObjEstudo.Create;
 
